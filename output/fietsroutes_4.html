@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d2e798f840ffe27fdbf267b132aeecea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d2e798f840ffe27fdbf267b132aeecea" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d2e798f840ffe27fdbf267b132aeecea = L.map(
+                "map_d2e798f840ffe27fdbf267b132aeecea",
+                {
+                    center: [51.99374152, 4.35056644],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15.8,
+                    zoomControl: false,
+                    preferCanvas: false,
+                    scrollWheelZoom: false,
+                    dragging: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_fc173d23077b614fdbafd5b62a0df8fe = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_fc173d23077b614fdbafd5b62a0df8fe.addTo(map_d2e798f840ffe27fdbf267b132aeecea);
+        
+    
+            var marker_2f2360c7f3007f9b323d1bfa9ceb7ecf = L.marker(
+                [52.0060477, 4.3602782],
+                {}
+            ).addTo(map_d2e798f840ffe27fdbf267b132aeecea);
+        
+    
+        var popup_09c4df47241b4af7f57e41e854afc828 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac0247b14849c8022fe91fe4271e169f = $(`<div id="html_ac0247b14849c8022fe91fe4271e169f" style="width: 100.0%; height: 100.0%;">Oude Delft 9, Delft</div>`)[0];
+                popup_09c4df47241b4af7f57e41e854afc828.setContent(html_ac0247b14849c8022fe91fe4271e169f);
+            
+        
+
+        marker_2f2360c7f3007f9b323d1bfa9ceb7ecf.bindPopup(popup_09c4df47241b4af7f57e41e854afc828)
+        ;
+
+        
+    
+    
+            var marker_4014ef328a6ea2492c727a57424b537c = L.marker(
+                [52.0060477, 4.3602782],
+                {}
+            ).addTo(map_d2e798f840ffe27fdbf267b132aeecea);
+        
+    
+            var div_icon_9ce6302c9a00ffa0d8cde9e3583db712 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027color: blue; fill= white\u0027\u003e1:Oude Delft 9\u003c/div\u003e"});
+            marker_4014ef328a6ea2492c727a57424b537c.setIcon(div_icon_9ce6302c9a00ffa0d8cde9e3583db712);
+        
+    
+            var marker_068316a89ccf4409c65a30eb7411cbc8 = L.marker(
+                [51.9930057, 4.3366676],
+                {}
+            ).addTo(map_d2e798f840ffe27fdbf267b132aeecea);
+        
+    
+        var popup_19ed805708450e7ddd553e4169a2a565 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_998dfa2ab72de3f49f5b08a06ff812b4 = $(`<div id="html_998dfa2ab72de3f49f5b08a06ff812b4" style="width: 100.0%; height: 100.0%;">Mozartlaan 674, Delft</div>`)[0];
+                popup_19ed805708450e7ddd553e4169a2a565.setContent(html_998dfa2ab72de3f49f5b08a06ff812b4);
+            
+        
+
+        marker_068316a89ccf4409c65a30eb7411cbc8.bindPopup(popup_19ed805708450e7ddd553e4169a2a565)
+        ;
+
+        
+    
+    
+            var marker_689c981fb3730ff8da7a7abfa4451dd5 = L.marker(
+                [51.9930057, 4.3366676],
+                {}
+            ).addTo(map_d2e798f840ffe27fdbf267b132aeecea);
+        
+    
+            var div_icon_1dac38def4cc3e790571249bfab278c4 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027color: blue; fill= white\u0027\u003e2:Mozartlaan 674\u003c/div\u003e"});
+            marker_689c981fb3730ff8da7a7abfa4451dd5.setIcon(div_icon_1dac38def4cc3e790571249bfab278c4);
+        
+    
+            var marker_c56dc8ca01e436e65467cb80a1e8c787 = L.marker(
+                [51.9836644, 4.3559064],
+                {}
+            ).addTo(map_d2e798f840ffe27fdbf267b132aeecea);
+        
+    
+        var popup_3eec2056b10430d8608aa6515396072c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bf43500a75bca30bc5375f5e850658e = $(`<div id="html_2bf43500a75bca30bc5375f5e850658e" style="width: 100.0%; height: 100.0%;">Karekiethof 14, Delft</div>`)[0];
+                popup_3eec2056b10430d8608aa6515396072c.setContent(html_2bf43500a75bca30bc5375f5e850658e);
+            
+        
+
+        marker_c56dc8ca01e436e65467cb80a1e8c787.bindPopup(popup_3eec2056b10430d8608aa6515396072c)
+        ;
+
+        
+    
+    
+            var marker_77fb0f30d890c2795091f954830b0d23 = L.marker(
+                [51.9836644, 4.3559064],
+                {}
+            ).addTo(map_d2e798f840ffe27fdbf267b132aeecea);
+        
+    
+            var div_icon_e3afc967c8618f337f92a5f2b2e8a186 = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027color: blue; fill= white\u0027\u003e3:Karekiethof 14\u003c/div\u003e"});
+            marker_77fb0f30d890c2795091f954830b0d23.setIcon(div_icon_e3afc967c8618f337f92a5f2b2e8a186);
+        
+    
+            var marker_c7ca59bb4c31caeb7dcfb311d824dcb2 = L.marker(
+                [51.9799421, 4.3397018],
+                {}
+            ).addTo(map_d2e798f840ffe27fdbf267b132aeecea);
+        
+    
+        var popup_23645365192ad8d11b534afdd4d5ecd5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_125184c6e8f54d3abb2492b3d8fece3a = $(`<div id="html_125184c6e8f54d3abb2492b3d8fece3a" style="width: 100.0%; height: 100.0%;">Karibastraat 46, Delft</div>`)[0];
+                popup_23645365192ad8d11b534afdd4d5ecd5.setContent(html_125184c6e8f54d3abb2492b3d8fece3a);
+            
+        
+
+        marker_c7ca59bb4c31caeb7dcfb311d824dcb2.bindPopup(popup_23645365192ad8d11b534afdd4d5ecd5)
+        ;
+
+        
+    
+    
+            var marker_44ef6ab36bf051b6ed7b4d0cd5b91911 = L.marker(
+                [51.9799421, 4.3397018],
+                {}
+            ).addTo(map_d2e798f840ffe27fdbf267b132aeecea);
+        
+    
+            var div_icon_fcd639025d64487db363e469b55b257b = L.divIcon({"className": "empty", "html": "\u003cdiv style=\u0027color: blue; fill= white\u0027\u003e4:Karibastraat 46\u003c/div\u003e"});
+            marker_44ef6ab36bf051b6ed7b4d0cd5b91911.setIcon(div_icon_fcd639025d64487db363e469b55b257b);
+        
+    
+            var marker_eede1baf4d925870b9487029e6ad3f9b = L.marker(
+                [52.0060477, 4.3602782],
+                {}
+            ).addTo(map_d2e798f840ffe27fdbf267b132aeecea);
+        
+    
+        var popup_1123391bfa5a4ec6667bfae8726d0b86 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68b6330c8c5d273a4de34d0e680bfa0a = $(`<div id="html_68b6330c8c5d273a4de34d0e680bfa0a" style="width: 100.0%; height: 100.0%;">Oude Delft 9, Delft</div>`)[0];
+                popup_1123391bfa5a4ec6667bfae8726d0b86.setContent(html_68b6330c8c5d273a4de34d0e680bfa0a);
+            
+        
+
+        marker_eede1baf4d925870b9487029e6ad3f9b.bindPopup(popup_1123391bfa5a4ec6667bfae8726d0b86)
+        ;
+
+        
+    
+    
+            map_d2e798f840ffe27fdbf267b132aeecea.fitBounds(
+                [[51.979839, 4.333052], [52.008784, 4.366972]],
+                {"maxZoom": 24}
+            );
+        
+</script>
+</html>
