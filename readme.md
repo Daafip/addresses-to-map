@@ -8,4 +8,5 @@ The points are then ploted on the map, with the adresses.<br>
 This html map is loaded using seluium, screenshotted and converted to pdf. <br>
 At the end text is added to the bottom, this can be edited in lines 100 of cell 2.<br>
 Some initial comments are in dutch, ill update those if needed along the way. <br>
-Feel free to create an issue if something is unclear.
+Feel free to create an issue if something is unclear. <br>
+Conda environment added can be installed using `conda env create -f environment.yml`. 
